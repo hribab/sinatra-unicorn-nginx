@@ -6,4 +6,8 @@ class SinatraApp < Sinatra::Base
     'Yo'
   end
 
+  get '/app/foo/?' do
+    'bar'
+  end
+
 end
